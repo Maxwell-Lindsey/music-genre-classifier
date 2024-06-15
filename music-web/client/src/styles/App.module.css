@@ -1,0 +1,60 @@
+.container {
+  margin: -1rem auto;
+  max-width: 950px;
+  height: 100vh;
+}
+
+.header {
+  margin: 2rem 0 1rem 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  justify-content: space-between;
+}
+
+.warning {
+  margin: 1rem 0;
+}
+
+.badgeWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+.avatar {
+  margin-top: 1rem;
+}
+
+.utilityBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
